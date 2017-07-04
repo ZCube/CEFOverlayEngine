@@ -1,0 +1,14 @@
+[submodule "external/jsoncpp"]
+	path = external/jsoncpp
+	url = https://github.com/open-source-parsers/jsoncpp.git
+	ignore = dirty
+[submodule "external/reshade"]
+	path = external/reshade
+	url = https://github.com/ZCube/reshade
+[submodule "external/boost"]
+	path = external/boost
+	url = https://github.com/ZCube/boost-cmake.git
+[submodule "external/zlib"]
+	path = external/zlib
+	url = https://github.com/madler/zlib.git
+	ignore = dirty

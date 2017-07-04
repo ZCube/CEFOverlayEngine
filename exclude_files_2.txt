@@ -1,0 +1,5 @@
+.ilk
+.pdb
+.exp
+.lib
+.exe

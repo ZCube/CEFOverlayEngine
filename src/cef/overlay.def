@@ -1,0 +1,12 @@
+LIBRARY   ActWebSocketImguiOverlay  
+EXPORTS  
+   ModInit                @1
+   ModRender              @2
+   ModUnInit              @3
+   ModTextureData         @4
+   ModSetTexture          @5
+   ModMenu                @6
+   ModUpdateFont          @7
+   ModGetTextureDirtyRect @8
+   ModTextureBegin        @9
+   ModTextureEnd          @10
