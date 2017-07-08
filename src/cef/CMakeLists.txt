@@ -29,7 +29,7 @@ ADD_LIBRARY(CefOverlay
 	${IMGUI_DIRECTORY}/stb_textedit.h
 	${IMGUI_DIRECTORY}/stb_truetype.h
 	overlay.cpp
-	overlay.def
+	../overlay.def
 	Resource.rc
 	resource.h
 	version.h
@@ -63,18 +63,5 @@ TARGET_LINK_LIBRARIES(CefOverlayProc
 	boost
 	libcef
 	libcef_dll_wrapper
-)
-
-
-ADD_LIBRARY(loader
-	SHARED
-	loader.cpp
-	overlay.def
-	Resource.rc
-	resource.h
-	version.h
-)
-
-TARGET_LINK_LIBRARIES(loader
 )
 

@@ -55,13 +55,6 @@ extern "C" int ModInit(ImGuiContext* context)
 		filesystem::path s = m.parent_path() / L"32";
 #endif
 		char* names[] = {
-			//"libcrypto-41.dll",
-			//"libssl-43.dll",
-			//"libtls-15.dll",
-#ifdef USE_SSL
-			"libeay32.dll",
-			"ssleay32.dll",
-#endif
 			"chrome_elf.dll",
 			"libcef.dll",
 			nullptr
