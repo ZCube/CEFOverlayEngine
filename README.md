@@ -25,3 +25,8 @@ Library | Description
 [Reshade](https://github.com/crosire/reshade) | Used as overlay injector
 
 NO WARRANTY. ANY USE OF THE SOFTWARE IS ENTIRELY AT YOUR OWN RISK.
+
+
+## Note ##
+
+This repository is no longer maintained.
